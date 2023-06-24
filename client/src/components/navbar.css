@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  height: 50px;
+  background-color: #fbab7e;
+  background-image: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+}
+.logo a {
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+}
+.links {
+  display: flex;
+  gap: 15px;
+}
+.links a {
+  text-decoration: none;
+
+  padding: 5px;
+  border-radius: 10px;
+  color: rgb(93, 93, 93);
+  transition: 0.1s;
+}
+.links a:hover {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+}
+.links a:focus {
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  
+}
+.logoutbutton {
+font-size: 10px;
+
+}
