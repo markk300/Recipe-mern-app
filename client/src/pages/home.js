@@ -12,7 +12,7 @@ export const Home = () => {
   useEffect(() => {
     const fetchRecipe = async () => {
       try {
-        const response = await axios.get("http://localhost:3001/recipes");
+        const response = await axios.get("https://recipe-mern-app-dnfk.onrender.com/recipes");
         setRecipes(response.data);
       } catch (err) {
         console.error(err);
