@@ -180,6 +180,10 @@ p {
 @media (max-width:768px) {
   .auth {
     display: flex;
-    display: inline-block;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+  .auth-container{
+    width: 100%;
   }
 }
