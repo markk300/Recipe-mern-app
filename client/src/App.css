@@ -177,3 +177,9 @@ p {
   border-radius: 5px;
 
 }
+@media (max-width:768px) {
+  .auth {
+    display: flex;
+    display: inline-block;
+  }
+}

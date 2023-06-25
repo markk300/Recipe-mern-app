@@ -40,7 +40,7 @@ export const CreateRecipe = () => {
     event.preventDefault();
     try {
       await axios.post(
-        "http://localhost:3001/recipes",
+        "https://recipe-mern-app-dnfk.onrender.com/recipes",
         recipe,{headers:{Authorization:cookies.access_token}},
         {
           headers: { authorization: cookies.access_token },
